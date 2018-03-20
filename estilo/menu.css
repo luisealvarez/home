@@ -1,0 +1,90 @@
+@font-face{
+	font-family:bicubik;
+	src:url(../fuentes/Bicubik.OTF);
+}
+
+
+header {
+	background: white;
+}
+
+
+header nav{
+	z-index: 12;
+	width: 100%;
+	max-width: 1200px;
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	position: fixed;
+	border:0px;
+	font-family: bicubik;
+	-webkit-animation-name:barrido;
+	-webkit-animation-duration:2s;
+	-webkit-animation-delay:-1s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-iteration-count:1;
+}
+
+@-webkit-keyframes barrido{
+	from{margin-top:-150px;
+	}
+	to{margin-top:0px;
+	}
+}
+
+@-moz-keyframes posit{
+	from{margin-left: -530px;
+		 transform:scale(-1);
+	}
+	to{margin-left: 100px;
+	}
+}
+
+@-ms-keyframes posit{
+	from{margin-left: -530px;
+		 transform:scale(-1);
+	}
+	to{margin-left: 100px;
+	}
+}
+
+@-o-keyframes posit{
+	from{margin-left: -530px;
+		 transform:scale(-1);
+	}
+	to{margin-left: 100px;
+	}
+}
+
+header nav ul{
+	list-style: none;
+	margin-left: 13%;
+}
+
+header nav ul a{
+	text-decoration: none;
+	color:black;
+
+}
+
+header nav ul a:hover{
+	text-decoration: none;
+}
+
+header nav ul a li{
+	-webkit-transition:all 2s ease 0s;
+}
+
+header nav ul a:hover li{
+
+	-webkit-transform:scale(1.2);
+	border-bottom: 1px solid black;
+}
+
+
+header nav ul a li{
+	display: inline-block;
+	margin-left: 10%;
+}
+

@@ -1,0 +1,65 @@
+.container{
+	position: relative;
+}
+
+.derecha{
+	width: 80px;
+	position: absolute;
+	margin-top: 285px;
+	right: 3px;
+}
+
+.derecha img{
+	width: 100%;
+}
+
+.derecha:hover{
+	transform: scale(1.2);
+}
+
+.izquierda{
+	width: 80px;
+	position: absolute;
+	margin-top: 285px;
+	left: 3px;
+}
+
+.izquierda img{
+	width: 100%;
+}
+
+.izquierda:hover{
+	transform: scale(1.2);
+}
+
+
+.derecha2{
+	width: 80px;
+	position: absolute;
+	margin-top: -160px;
+	right: 3px;
+}
+
+.derecha2 img{
+	width: 100%;
+}
+
+.derecha2:hover{
+	transform: scale(1.2);
+}
+
+.izquierda2{
+	width: 80px;
+	position: absolute;
+	margin-top: -160px;
+	left: 3px;
+}
+
+.izquierda2 img{
+	width: 100%;
+}
+
+.izquierda2:hover{
+	transform: scale(1.2);
+}
+

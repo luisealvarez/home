@@ -1,0 +1,12 @@
+1-index
+2-Restaurantes
+3-Contacto
+4-Login
+
+Restaurantes:
+		5-Restaurante1
+		6-Restaurante2
+		7-Restaurante3
+		8-Restaurante4
+		9-Restaurante5
+		10-Restaurante6
